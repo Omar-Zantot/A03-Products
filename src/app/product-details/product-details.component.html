@@ -1,4 +1,11 @@
-<ng-container *ngIf="product$ | async as Product">
-  <p>{{ Product.title }}</p>
-  <img [src]="Product.thumbnail" alt="product-image" />
+<ng-container *ngIf="product$ | async as Product" style="margin-top: 5rem">
+  <p style="padding-bottom: 0.6rem">{{ Product.title }}</p>
+  <img
+    [src]="Product.thumbnail"
+    alt="product-image"
+    style="width: 80%; margin: auto; border-radius: 14px"
+  />
+  <p style="padding-bottom: 0.6rem">Brand: {{ Product.brand }}</p>
+  <p style="padding-bottom: 0.6rem">Category: {{ Product.category }}</p>
+  <p style="padding-bottom: 0.6rem">Avilibale Stoke: {{ Product.stock }}</p>
 </ng-container>

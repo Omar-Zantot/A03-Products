@@ -13,7 +13,9 @@ export class ProductsComponent implements OnInit,OnDestroy {
   private destroy = new Subject();
   constructor(private productsService: ProductsService) {}
   ngOnInit(): void {
-    this.productsService.getProductsList$().pipe(takeUntil(this.destroy)).subscribe({
+    this.productsService.getProductsList$()
+    .pipe(takeUntil(this.destroy))
+    .subscribe({
       next: (data) => {
         this.data = data;
 

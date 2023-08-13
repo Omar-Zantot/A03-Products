@@ -8,7 +8,14 @@
 //   transform: translate(-50%, -50%);
 // }
 
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+}
 .product {
   cursor: pointer;
   padding: 0.5rem 1rem;
+  // border: 1px solid rebeccapurple;
 }
