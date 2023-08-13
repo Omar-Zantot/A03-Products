@@ -1,0 +1,64 @@
+.home-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  min-height:350px ;
+}
+.home-caption h1 {
+  color: var(--base-color);
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 24px;
+  margin-bottom: 1rem;
+}
+.home-caption h3 {
+  font-size: 24px;
+  color: var(--base-color);
+  margin-block: 1.2rem;
+}
+.home-caption h4 {
+  position: relative;
+  font-weight: 300;
+  font-size: 26px;
+  text-transform: capitalize;
+  line-height: 1.2;
+  color: var(--base-color);
+  display: inline-block;
+}
+
+.home-caption h4::after {
+  content: "";
+  animation: typing 12s linear infinite;
+}
+
+@keyframes typing {
+  0% {content: "";}
+  2.380952380952381% {content: "T";}
+  4.761904761904762% {content: "Tr";}
+  7.142857142857142% {content: "Tra";}
+  9.523809523809524% {content: "Trai";}
+  11.904761904761905% {content: "Train";}
+  14.285714285714285% {content: "Traine";}
+  16.666666666666668% {content: "Trainee";}
+  33.333333333333336% {content: "Trainee";}
+  35.18518518518519% {content: "F";}
+  37.03703703703704% {content: "Fr";}
+  38.88888888888889% {content: "Fro";}
+  40.74074074074075% {content: "Fron";}
+  42.592592592592595% {content: "Front";}
+  44.44444444444445% {content: "Front-";}
+  46.296296296296305% {content: "Front-E";}
+  48.14814814814815% {content: "Front-En";}
+  50% {content: "Front-End";}
+  66.66666666666667% {content: "Front-End";}
+  70% {content: "A";}
+  73.33333333333334% {content: "At";}
+  76.66666666666667% {content: "At ";}
+  80% {content: "At B";}
+  83.33333333333334% {content: "At BM";}
+  100% {content: "At BM";}
+}

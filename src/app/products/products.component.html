@@ -1,0 +1,9 @@
+<ng-container *ngIf="data">
+  <app-product
+    *ngFor="let product of data.products"
+    [product]="product"
+    [routerLink]="'/product/' + product.id"
+    class="product"
+  >
+  </app-product>
+</ng-container>

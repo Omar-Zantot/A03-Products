@@ -1,0 +1,67 @@
+// :host {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   background-color: blue;
+//   padding: 1rem;
+//   // position: absolute;
+//   // bottom: 0;
+//   // width: 100%;
+// }
+// :host {
+//   display: block;
+//   background-color: cornflowerblue;
+//   padding: 1rem;
+// }
+
+
+.footer {
+  text-align: center;
+  padding: 50px;
+  background-color:#66f;
+  margin-bottom: 0;
+  overflow: auto;
+
+}
+.footer ul {
+  list-style: none;
+}
+.footer ul li {
+  padding: 10px;
+  display: inline-block;
+}
+.footer ul li a {
+  text-decoration: none;
+}
+.fab {
+  font-size: 23px;
+}
+.footer p {
+  color: #fff;
+  margin-top: 20px;
+  font-weight: 500px;
+  font-size: 18px;
+}
+.footer p span {
+  color: #ff305b;
+}
+.footer p span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.fab {
+  color: #fff;
+  transition: all 0.5s;
+}
+.fa-facebook-f:hover {
+  color: blue;
+}
+.fa-google:hover {
+  color: red;
+}
+.fa-twitter:hover {
+  color: rgb(96, 174, 204);
+}
+.fa-github:hover {
+  color: #010409;
+}

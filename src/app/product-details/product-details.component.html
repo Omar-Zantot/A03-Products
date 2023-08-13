@@ -1,0 +1,4 @@
+<ng-container *ngIf="product$ | async as Product">
+  <p>{{ Product.title }}</p>
+  <img [src]="Product.thumbnail" alt="product-image" />
+</ng-container>

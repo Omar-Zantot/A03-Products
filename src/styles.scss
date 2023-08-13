@@ -1,0 +1,96 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+:root {
+  --base-color: #66f;
+  --text-dark: #3c4250;
+  --text-light: #eceef3;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a,
+span {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.925rem;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  padding-block: 0.9rem;
+}
+
+.contain{
+  width:90%;
+  margin: auto;
+}
+
+
+
+html,
+body {
+  height: 100%;
+}
+
+.main-container > *:not(router-outlet) {
+  display: block;
+  min-height: 100%;
+  width: clamp(100px, 100%, 900px);
+  margin-inline: auto;
+}
+
+.btn {
+  all: unset;
+  padding: 0.5rem 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+
+  background-color: #ff305b;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border: #fff solid 1px;
+  color: var(--text-light);
+}
+
+// .btn-primary {
+//   color: #fff;
+//   background-color: rgb(235, 142, 20);
+// }
+
+// .btn-secondary {
+//   color: #fff;
+//   background-color: aqua;
+// }
+
